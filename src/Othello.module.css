@@ -1,0 +1,24 @@
+/* Othello.module.css */
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-gap: 2px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: lightgreen;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
